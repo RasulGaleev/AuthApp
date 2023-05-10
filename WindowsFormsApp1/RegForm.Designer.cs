@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Form1
+    partial class RegForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -201,9 +201,12 @@
             // birthPicker
             // 
             this.birthPicker.Location = new System.Drawing.Point(149, 260);
+            this.birthPicker.MaxDate = new System.DateTime(2023, 12, 31, 0, 0, 0, 0);
+            this.birthPicker.MinDate = new System.DateTime(1753, 5, 11, 0, 0, 0, 0);
             this.birthPicker.Name = "birthPicker";
             this.birthPicker.Size = new System.Drawing.Size(160, 20);
             this.birthPicker.TabIndex = 17;
+            this.birthPicker.Value = new System.DateTime(2023, 5, 10, 0, 0, 0, 0);
             // 
             // Form1
             // 

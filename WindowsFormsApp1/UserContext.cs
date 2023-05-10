@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WindowsFormsApp1;
 
-namespace lr11
+namespace WindowsFormsApp1
 {
     public class UserContext : DbContext
     {
