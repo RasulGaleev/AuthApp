@@ -61,5 +61,13 @@ namespace WindowsFormsApp1
             reg_form.login_form = this;
             this.Visible = false;
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PasswordForm password_form = new PasswordForm();
+            password_form.Show();
+            password_form.login_form = this;
+            this.Visible = false;
+        }
     }
 }
